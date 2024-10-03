@@ -1,1 +1,39 @@
+<style>
+        th{
+            padding:10px 0 20px 10px;margin-bottom: 10px;background-color: #aca7a7;
+            font-size: large;border: 1px solid gray;
+        }
+        td{
+            padding: 5px 1px 5px 30px;
+        }
 
+        td:nth-child(4){
+            font-weight: bolder;
+            text-align: center;
+            padding-left: 0px;
+        }
+
+        tr:nth-child(odd){
+            background-color:#c1bfbf ;
+        }
+
+        #employeeTable{
+            width:100% ;border-radius: 25px;
+        }
+
+        #box0{
+            padding: 10px 20px 10px 20px;
+        }
+
+        #box1{
+            width:100% ;display: flex;padding: 10px;min-height: 7000px;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        #box2{
+            width:25% ;display:flex;flex-direction: column;padding: 10px 10px 10px 10px;background-color:#B0C4DE;min-height: max-content;
+        }
+
+        #box3{
+            width:75% ;background-color:#D6D6D6;
+        }
+    </style>
